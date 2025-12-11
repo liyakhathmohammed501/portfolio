@@ -136,4 +136,53 @@ body {
 .link:hover {
   color: #7d2cff;
 }
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-content {
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .btn,
+  .btn-outline {
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .photo-placeholder {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+  }
+}
+
 
